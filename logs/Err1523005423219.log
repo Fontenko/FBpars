@@ -1,0 +1,99 @@
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в загрузчиках!
+Read timed out
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в загрузчиках!
+Read timed out
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Что-то не так в парсерах
+Каптча
+Exception in thread "Loader-1" org.jsoup.UncheckedIOException: javax.net.ssl.SSLException: SSL peer shut down incorrectly
+	at org.jsoup.parser.CharacterReader.bufferUp(CharacterReader.java:60)
+	at org.jsoup.parser.CharacterReader.consume(CharacterReader.java:90)
+	at org.jsoup.parser.TokeniserState$41.read(TokeniserState.java:848)
+	at org.jsoup.parser.Tokeniser.read(Tokeniser.java:45)
+	at org.jsoup.parser.TreeBuilder.runParser(TreeBuilder.java:51)
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:45)
+	at org.jsoup.parser.Parser.parseInput(Parser.java:39)
+	at org.jsoup.helper.DataUtil.parseInputStream(DataUtil.java:151)
+	at org.jsoup.helper.HttpConnection$Response.parse(HttpConnection.java:832)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:289)
+	at xyz.myfur.Controllers.Workers.Loader.method(Loader.java:24)
+	at xyz.myfur.Controllers.Workers.Worker.run(Worker.java:39)
+Caused by: javax.net.ssl.SSLException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:596)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.ChunkedInputStream.fastRead(ChunkedInputStream.java:244)
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:689)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3393)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at org.jsoup.internal.ConstrainableInputStream.read(ConstrainableInputStream.java:64)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.io.BufferedReader.read(BufferedReader.java:289)
+	at java.io.Reader.read(Reader.java:140)
+	at org.jsoup.parser.CharacterReader.bufferUp(CharacterReader.java:54)
+	... 11 more
+Что-то не так в загрузчиках!
+Read timed out
+Что-то не так в загрузчиках!
+Read timed out
